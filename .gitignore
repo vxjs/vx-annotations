@@ -1,0 +1,4 @@
+*.log
+covevx
+node_modules
+jsdoc

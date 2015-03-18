@@ -1,0 +1,34 @@
+{
+  "name": "vx-annotations",
+  "version": "0.0.0",
+  "author": "Seth McLaughlin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vxjs/vx-annotations.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt"
+  },
+  "bin": {
+    "vx-annotations": "./bin/main.js"
+  },
+  "dependencies": {
+    "esprima": "~1.2.2",
+    "concat-stream": "~1.4.6",
+    "coveralls": "~2.10.0",
+    "mocha-lcov-reporter": "0.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^0.5.0",
+    "grunt-jsdoc": "^0.5.4",
+    "grunt-mocha-istanbul": "^1.4.1",
+    "grunt-release": "^0.7.0",
+    "mocha": "~2.0.0",
+    "help-me-test": "0.0.3"
+  }
+}
