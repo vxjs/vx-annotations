@@ -26,7 +26,7 @@ module.exports = function(grunt) {
         options: {
           mask: '**/*.spec.js',
           root: 'lib',
-          reportFormats: ['html'],
+          reportFormats: ['html', 'lcov'],
           reporter : 'spec',
           covevxFolder : 'covevx/unit'
         }
