@@ -11,12 +11,21 @@ describe('annotations', function () {
     });
 
     it('should return args', function () {
-      assert.deepEqual(output.code[0], ['../foo.js', 'coffee-script', 'sweet']);
-      assert.deepEqual(output.code[1], ['../bar.js']);
+      assert.deepEqual(output.code[0], {
+        idx: 0,
+        val: ['../foo.js', 'coffee-script', 'sweet']
+      });
+      assert.deepEqual(output.code[1], {
+        idx: 2,
+        val: ['../bar.js']
+      });
     });
 
     it('should parse vx-* prefixed', function () {
-      assert.deepEqual(output.includeCode[0], ['absolute.js']);
+      assert.deepEqual(output.includeCode[0], {
+        idx: 1,
+        val: ['absolute.js']
+      });
     });
 
   });

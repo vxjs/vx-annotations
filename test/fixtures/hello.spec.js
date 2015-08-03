@@ -1,7 +1,7 @@
 /**
  * @code ../foo.js [coffee-script, sweet]
- * @code ../bar.js
  * @vx-include-code absolute.js
+ * @code ../bar.js
  */
 describe('hello world', function () {
 
